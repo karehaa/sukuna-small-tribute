@@ -1,0 +1,24 @@
+body {
+    background-color: darkred;
+}
+
+.image {
+    height: 40rem;
+    width: auto;
+    float: right;
+    object-fit: contain;
+    padding-right: 8%;
+    padding-top: 5%;
+    margin-left: 0px;
+}
+
+.quote {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    font-size: 30px;
+    position: absolute;
+    padding-top: 17%;
+    padding-left: 8%;
+}
